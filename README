@@ -1,0 +1,4 @@
+Just a couple example programs that exploit false-sharing on Nehalem CPUs.
+There's nothing fancy and threads aren't pinned, so sometimes you get sequential
+execution. Each program has a nice description of what's going on and what
+results you should see.

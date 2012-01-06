@@ -1,0 +1,4 @@
+#!/bin/bash
+make clean
+make test3
+perf stat -e L1-dcache-loads -e L1-dcache-load-misses ./test3
